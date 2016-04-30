@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/imgWarning"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:src="@drawable/img1"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capture"
+        android:id="@+id/btnCapturar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="120dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galery"
+        android:id="@+id/btnGaleria"
+        android:layout_gravity="right"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/cep"
+        android:id="@+id/textView2"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/edtCEP"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_marginLeft="80dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="@string/sent"/>
+
+
+</RelativeLayout>

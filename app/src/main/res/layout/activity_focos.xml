@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/imgMap"
+        android:src="@drawable/inicio"/>
+
+    <Button
+        android:id="@+id/btnLembretes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Remembers"
+        android:layout_weight="0.11"
+        android:onClick="lembretes"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/perfil"
+        android:onClick="perfil"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Notify"
+        android:id="@+id/btnNotify"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.11"
+        android:onClick="notificar"/>
+</LinearLayout>

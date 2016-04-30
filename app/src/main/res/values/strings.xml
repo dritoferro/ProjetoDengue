@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Projeto Dengue</string>
+    <string name="welcome">Controle de Focos de Dengue</string>
+    <string name="enter">Entrar</string>
+    <string name="Notify">Notificar</string>
+    <string name="Remembers">Lembretes</string>
+    <string name="cep">CEP:</string>
+    <string name="galery">Galeria</string>
+    <string name="capture">Capturar</string>
+    <string name="sent">Enviar</string>
+    <string name="perfil">Perfil</string>
+    <string name="name">Nome:</string>
+    <string name="email">E-mail:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="cpf">CPF:</string>
+    <string name="save">Salvar</string>
+    <string name="tipo">Tipo:</string>
+    <string name="ultLimp">Última Limpeza:</string>
+    <string name="agendAlarm">Agendar Alarme</string>
+
+    <string-array name="tipos">
+        <item>Selecione</item>
+        <item>Calhas</item>
+        <item>Vasos</item>
+        <item>Caixa d\'água</item>
+
+    </string-array>
+
+    <string-array name="ListaLemb">
+        <item>Calhas - 15/05/2016</item>
+        <item>Vasos - 02/05/2016</item>
+        <item>Caixa d\'água - 20/05/2016</item>
+    </string-array>
+</resources>
